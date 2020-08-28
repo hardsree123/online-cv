@@ -174,22 +174,22 @@ skills:
       - name: C#
         level: 98%
         
-      - name: Javascript & jQuery
+      - name: Javascript &amp; jQuery
         level: 60%
 
       - name: ReactJS
         level: 40%
 
-      - name: HTML5 & CSS
+      - name: HTML5 &amp; CSS
         level: 40%
 
-      - name: Oracle PLSQL MYSQL & Postgresql
+      - name: Oracle PLSQL MYSQL &amp; Postgresql
         level: 90%
 
-      - name: Jenkins Azure Devops & Firebase
+      - name: Jenkins Azure Devops &amp; Firebase
         level: 70%
 
-      - name: GIT & SVN
+      - name: GIT &amp; SVN
         level: 90%
                 
 
