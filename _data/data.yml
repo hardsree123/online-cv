@@ -184,25 +184,28 @@ skills:
 
     toolset:
       - name: ASP.net MVC
-        level: Advanced
-
+        level: 98%
+        
+      - name: C#
+        level: 98%
+        
       - name: Javascript & jQuery
-        level: Intermediate
+        level: 60%
 
       - name: ReactJS
-        level: Beginner
+        level: 40%
 
       - name: HTML5 & CSS
-        level: Intermediate
+        level: 40%
 
       - name: Oracle PLSQL, MYSQL, Postgresql
-        level: Advanced
+        level: 90%
 
       - name: Jenkins, Azure Devops, Firebase
-        level: Intermediate
+        level: 70%
 
       - name: GIT, SVN
-        level: Intermediate
+        level: 90%
                 
 
 footer: >
