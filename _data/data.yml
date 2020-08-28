@@ -7,39 +7,39 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Sreejith Kumar M
+    tagline: Full Stack Web Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: kumar.sreejith@outlook.com
+    phone: +91 9747359124
+    website: hardsree123.github.io/online-cv/ #do not add http://
+    linkedin: sreejith-kumar-m
+    github: hardsree123
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@sreji_nambiar'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Professional
+
+      - idiom: Malayalam
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Gaming
         link:
 
-      - item: Snowboarding
+      - item: Fixing Electronics
         link:
 
       - item: Cooking
@@ -48,12 +48,17 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+        •	6+ Years of experience in Web and desktop application development with large scale database management systems.
+        •	Expertise .net MVC Front end and back end development using visual studio.
+        •	Practical experience in agile development, preferably SCRUM
+        •	Expertise in developing windows service application in C# applications.
+        •	Proficiency in Oracle 11g PlSQL programming, Postgresql and MySQL programming.
+        •	Entity framework, object-oriented design and development skills
+        •	Good understanding of Web Services protocols such as REST, SOAP, WebRTC and API design
+        •	Machine learning and data-science application development using tensorflow API experience.
+        •	Building and learning SPA’s and web app’s using latest web technologies like react, nodejs, firebase.
+        •	Debug root cause for defects, fix defects and provide impact on fixes done, change realisation approach.
+
 education:
     - degree: MSc in Computer Science
       university: University of London
