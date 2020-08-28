@@ -48,88 +48,62 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-        •	6+ Years of experience in Web and desktop application development with large scale database management systems.
-        •	Expertise .net MVC Front end and back end development using visual studio.
-        •	Practical experience in agile development, preferably SCRUM
-        •	Expertise in developing windows service application in C# applications.
-        •	Proficiency in Oracle 11g PlSQL programming, Postgresql and MySQL programming.
-        •	Entity framework, object-oriented design and development skills
-        •	Good understanding of Web Services protocols such as REST, SOAP, WebRTC and API design
-        •	Machine learning and data-science application development using tensorflow API experience.
-        •	Building and learning SPA’s and web app’s using latest web technologies like react, nodejs, firebase.
-        •	Debug root cause for defects, fix defects and provide impact on fixes done, change realisation approach.
+        - 6+ Years of experience in Web and desktop application development with large scale database management systems.
+        - Expertise .net MVC Front end and back end development using visual studio.
+        - Practical experience in agile development, preferably SCRUM
+        - Expertise in developing windows service application in C# applications.
+        - Proficiency in Oracle 11g PlSQL programming, Postgresql and MySQL programming.
+        - Entity framework, object-oriented design and development skills
+        - Good understanding of Web Services protocols such as REST, SOAP, WebRTC and API design
+        - achine learning and data-science application development using tensorflow API experience.
+        - uilding and learning SPA’s and web app’s using latest web technologies like react, nodejs, firebase.
+        - ebug root cause for defects, fix defects and provide impact on fixes done, change realisation approach.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Computational Science
+      university: CUSAT - Cochin , Kerala
+      time: 2011 - 2013
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Completed MSc in computational science with 8.5 CGPA        
+    - degree: BSc in Computer Science
+      university: Kannur university
+      time: 2008 - 2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Completed BSc in computer science with 3.11 CGPA
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Project Lead Development
+      time: 2013 - 2020
+      company: Intellizenz Innovations Pvt. Ltd.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - Started as junior software engineer and grown to the role of project lead
+        - Design and development of web and windows service applications in C#, Python and Core java.
+        - Database migration for spatial data from old Navteq data to latest Navteq.
+        - Database optimization for enhanced performance and throughput.
+        - Creation and optimization of stored procedures, function and packages.
+        - Leading team technically during sprints and handling managerial tasks during FAT and SAT.
+        - Assisted in the evaluation, design, re-design of solutions/architecture.
+        - Carrying out feasibility study for change request realization.
+        - Project management using teamforge and redmine.	
+        - Customer interactions, weekly and daily project updates, sharing meeting minutes and taking stock of priorities and assigning resources
+        - Microsoft azure devops for project.
+
+    - role: Adhoc Project Associate
+      time: Aug 2013 - Oct 2013
+      company: Dr Suresh C H , NIIST Trivandrum
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Setting up cluster, installing job scheduler torque and preparing batch scripts for computing jobs.
+    
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Below is a list of open source side projects i have done also the projects i have done as part of my .
     assignments:
-      - title: Velocity
+      - title: OPV (Optimized Pickup Values for Container Waste Management) 
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "The project involves multiple services working as a single module. Web API to handle incoming GET and POST requests for data. 
+        GET and POST requests for data. All services intercommunicate via AMQP (RabbitMQ). 
+        Distance and travel time calculated by the route planner involving Dijkstras algorithm with several factors inplace. 
+        The calculated distance and travel time OD Matrix is fed to a route optimizer library that generates an optimized list of pickup sequence for the waste locations"
 
       - title: DevStudio
         link: "#"
