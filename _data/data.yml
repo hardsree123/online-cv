@@ -104,15 +104,13 @@ projects:
         GET and POST requests for data. All services intercommunicate via AMQP (RabbitMQ). 
         Distance and travel time calculated by the route planner involving Dijkstras algorithm with several factors inplace. 
         The calculated distance and travel time OD Matrix is fed to a route optimizer library that generates an optimized list of pickup sequence for the waste locations"
-
       - title: Route planner divider restriction upgrade
         link: "#"
         tagline: "Existing route planner was upgraded to obey divider restrictions for right side driving. 
         The upgrade involved adding additional restriction information to the binary input file. 
         This was calculated based on the navteq streets divider classification. The method involved identifying navigable left turns from a divider 
         road using mathematical calculations. The left turns that aren’t navigable were marked as restrictions in the binary input file"
-
-      - title: Mail/SOAP XML based Special transport planner
+      - title: Mail SOAP XML based Special transport planner
         link: "#"
         tagline: "Mail Based special transport planner is a multi-threaded windows service that is configured with Imap and SMTP settings. 
         It downloads movement requests received from users who share the filled in movement form via mail, 
@@ -122,24 +120,19 @@ projects:
         using the openlayers based map ui. SOAP Xml based special transport planner is a WCF application built using the same library but handles the 
         movement requests via SOAP UI, the request is sent as a xml request which is processed and validated by the SOAP Xml receiver. The entire project is built as 
         an upgrade to already existing special transport planner"
-
       - title: E-Ink Based display software upgrade
         link: "#"
-        tagline: "
-        The project involved upgrading the DRIS modules configured for Bus stops to handle the newly incorporated E-Ink displays. 
+        tagline: "The project involved upgrading the DRIS modules configured for Bus stops to handle the newly incorporated E-Ink displays. 
         The display receives png image and stores it in its memory and displays the same during the configured time period. 
         The display communicates with the C# based application over GPRS. The images are uploaded via a asp.net based back office application for a specific display, 
         this is picked up by the C# based windows service that forwards the image in binary format along with other relevant data. 
-        The display is programmed to receive the image and send acknowledgement.
-        "
-
+        The display is programmed to receive the image and send acknowledgement."
       - title: DRIS
         link: "#"
         tagline: "DRIS is a dynamic bus station project that handles platform reservations and allocation to incoming buses in real time. 
         Different modules of dris communicate over TCP/IP. The allocation of platforms to buses are shown on displays as information to passengers. 
         The allocation algorithm takes into account all future incoming buses, inaccessible platforms, occupied platforms and so on."
-
-      - title: STP – (Special transport planner : Structure maintenance tool)
+      - title: Special transport planner (Structure maintenance tool)
         link: "#"
         tagline: "Structure data in STP system needs to be periodically updated based on the updates
         received from the structure owners. It is a web based portal in which all the structure
@@ -148,9 +141,7 @@ projects:
         structure owners, cleansing the receiving data, comparing it with the original structure from
         STP system and cleansing it and finally publishing the cleansed data to Staging and
         Production. This portal is exclusively developed from the helpdesk and no other users have
-        privilege to access.
-        ."
-      
+        privilege to access."   
       - title: STP-Special Transport planner
         link: "#"
         tagline: "STP is a system that simplifies the process of notifying abnormal load movements.
