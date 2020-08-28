@@ -198,13 +198,13 @@ skills:
       - name: HTML5 & CSS
         level: 40%
 
-      - name: Oracle PLSQL, MYSQL, Postgresql
+      - name: Oracle PLSQL MYSQL & Postgresql
         level: 90%
 
-      - name: Jenkins, Azure Devops, Firebase
+      - name: Jenkins Azure Devops & Firebase
         level: 70%
 
-      - name: GIT, SVN
+      - name: GIT & SVN
         level: 90%
                 
 
