@@ -105,65 +105,105 @@ projects:
         Distance and travel time calculated by the route planner involving Dijkstras algorithm with several factors inplace. 
         The calculated distance and travel time OD Matrix is fed to a route optimizer library that generates an optimized list of pickup sequence for the waste locations"
 
-      - title: DevStudio
+      - title: Route planner divider restriction upgrade
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Existing route planner was upgraded to obey divider restrictions for right side driving. 
+        The upgrade involved adding additional restriction information to the binary input file. 
+        This was calculated based on the navteq streets divider classification. The method involved identifying navigable left turns from a divider 
+        road using mathematical calculations. The left turns that aren’t navigable were marked as restrictions in the binary input file"
 
-      - title: Tempo
+      - title: Mail/SOAP XML based Special transport planner
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Mail Based special transport planner is a multi-threaded windows service that is configured with Imap and SMTP settings. 
+        It downloads movement requests received from users who share the filled in movement form via mail, 
+        this is processed and a response with a future reference is shared with the user. In addition the planner does document validations to provide
+        valid response to the user for rejecting his movement request. The moderator on the other end receives the movement request he is
+        greeted with the general details relevant for him to accept or reject the movement, he can edit and replan the movement’s traversing route 
+        using the openlayers based map ui. SOAP Xml based special transport planner is a WCF application built using the same library but handles the 
+        movement requests via SOAP UI, the request is sent as a xml request which is processed and validated by the SOAP Xml receiver. The entire project is built as 
+        an upgrade to already existing special transport planner"
 
-      - title: Atom
+      - title: E-Ink Based display software upgrade
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "
+        The project involved upgrading the DRIS modules configured for Bus stops to handle the newly incorporated E-Ink displays. 
+        The display receives png image and stores it in its memory and displays the same during the configured time period. 
+        The display communicates with the C# based application over GPRS. The images are uploaded via a asp.net based back office application for a specific display, 
+        this is picked up by the C# based windows service that forwards the image in binary format along with other relevant data. 
+        The display is programmed to receive the image and send acknowledgement.
+        "
 
-      - title: Delta
+      - title: DRIS
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "DRIS is a dynamic bus station project that handles platform reservations and allocation to incoming buses in real time. 
+        Different modules of dris communicate over TCP/IP. The allocation of platforms to buses are shown on displays as information to passengers. 
+        The allocation algorithm takes into account all future incoming buses, inaccessible platforms, occupied platforms and so on."
 
+      - title: STP – (Special transport planner : Structure maintenance tool)
+        link: "#"
+        tagline: "Structure data in STP system needs to be periodically updated based on the updates
+        received from the structure owners. It is a web based portal in which all the structure
+        maintenance related functionalities are catered. There are four stages through which the
+        structures are updated in the cleansing tool; verifying the structures received from the
+        structure owners, cleansing the receiving data, comparing it with the original structure from
+        STP system and cleansing it and finally publishing the cleansed data to Staging and
+        Production. This portal is exclusively developed from the helpdesk and no other users have
+        privilege to access.
+        ."
+      
+      - title: STP-Special Transport planner
+        link: "#"
+        tagline: "STP is a system that simplifies the process of notifying abnormal load movements.
+        Legislation requires that vehicles and load movements that exceed standard dimensions
+        need to be pre-notified to police, highway and bridge authorities. Advance route planning is
+        a major functionality that helps the haulier users to plan the routes through which their
+        movements have to go."
+      
 publications:
-    title: Publications
+    title: Academic work and Internships
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - Project Intern at Grid Application Research Lab at SERC (Currently MARS LAB, CDS), IISc Bangalore
+    #papers:
+    #  - title: The Art of Computer Programming
+    #    link: "#"
+    #    authors: Donald E. Knuth
+    #    conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    #  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    #    link: "#"
+    #    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+    #    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    # - title: A syntax directed compiler for Algol 60
+    #    link: "#"
+    #    authors: Edgar T. Irons
+    #    conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: ASP.net MVC
+        level: Advanced
 
       - name: Javascript & jQuery
-        level: 98%
+        level: Intermediate
 
-      - name: Angular
-        level: 98%
+      - name: ReactJS
+        level: Beginner
 
       - name: HTML5 & CSS
-        level: 95%
+        level: Intermediate
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Oracle PLSQL, MYSQL, Postgresql
+        level: Advanced
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Jenkins, Azure Devops, Firebase
+        level: Intermediate
+
+      - name: GIT, SVN
+        level: Intermediate
+                
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
